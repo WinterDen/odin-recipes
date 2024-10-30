@@ -1,4 +1,4 @@
-#title {
+.title {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
@@ -8,22 +8,24 @@
 }
 
 body {
-    background-color: rgb(253, 150, 110);
+    background-color: rgb(56, 51, 49);
     border: 2px solid rgb(95, 190, 221);
     border-radius: 25px;
     padding: 20px;
     border-style: double;
 }
 
-#links a {
+.links a {
     font-size: 25px;
     color: white;
     text-align: left;
     text-shadow: 2px 2px black;
     text-decoration: none;
+    margin: 0 auto;
+    padding: 0px;
 } 
 
-#links {
+.links {
     list-style: none;
 }
 
@@ -49,23 +51,23 @@ body {
 
 .class, p {
     font-family: 'Courier New', Courier, monospace;
-    color: black;
+    color: rgb(255, 253, 253);
     text-align: justify;
 }
 
 .listo {
     font-family: 'Courier New', Courier, monospace;
-    color: black;
+    color: rgb(252, 249, 249);
     text-align: justify;
 }
 
 .listu {
     font-family: 'Courier New', Courier, monospace;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: justify;
 }
 
-#links {
+.links {
     text-decoration: none;
     font-size: 20px;
 }
@@ -73,4 +75,65 @@ body {
 img {
     width: 600px;
     height: auto;
+}
+
+/* Style for border,margin and padding */
+
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-shadow: 0px 1px rgb(5, 4, 4);
+}
+
+body{
+    margin: 15px;
+    padding: 35px;
+}
+
+.listo{
+    padding: 10px;
+}
+
+.header p{
+    padding: 0 auto;
+    text-wrap: wrap;
+    margin: 15px auto;
+    text-align:center;
+}
+
+.title{
+    margin-bottom: 0 auto;
+}
+
+div {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.header h2 {
+    border-bottom: 2px solid rgb(95, 190, 221);
+}
+
+html {
+    background-color: rgb(10, 9, 7);
+    margin: 20px;
+}
+
+button{
+    background-color: white;
+    padding: 8px;
+    color: black;
+    text-align: center;
+    text-shadow: none;
+}
+
+.indexbody {
+ padding: 15px;
+ margin: 0 auto;
 }
