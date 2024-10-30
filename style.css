@@ -2,17 +2,9 @@
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    text-align: center;
+    text-align: justify;
     font-weight: bold;
     text-shadow: 2px 2px black;
-}
-
-body {
-    background-color: rgb(56, 51, 49);
-    border: 2px solid rgb(95, 190, 221);
-    border-radius: 25px;
-    padding: 20px;
-    border-style: double;
 }
 
 .links a {
@@ -27,6 +19,7 @@ body {
 
 .links {
     list-style: none;
+    text-align: center;
 }
 
 * {
@@ -39,9 +32,10 @@ body {
     text-align: left;
     font-weight: bold;
     text-shadow: 2px 2px black;
+    font-size: 35px;
 }
 
-.class, h4 {
+.class, h3 {
     font-family: 'Courier New', Courier, monospace;
     color: white;
     text-align: left;
@@ -72,10 +66,6 @@ body {
     font-size: 20px;
 }
 
-img {
-    width: 600px;
-    height: auto;
-}
 
 /* Style for border,margin and padding */
 
@@ -92,32 +82,37 @@ img {
 }
 
 body{
-    margin: 15px;
-    padding: 35px;
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: auto;
+    background-color: rgb(56, 51, 49);
+    border: 2px solid rgb(95, 190, 221);
+    border-radius: 25px;
+    border-style: double;
+    width: 1000px;
+}
+
+.recipe h3{
+    padding: 0 12px;
 }
 
 .listo{
-    padding: 10px;
+    padding: 10px 40px;
+    width: 950px;
+    text-align: left;
 }
 
-.header p{
-    padding: 0 auto;
-    text-wrap: wrap;
-    margin: 15px auto;
-    text-align:center;
+.listu {
+    padding: 10px 30px;
+    width: 600px;
 }
 
 .title{
     margin-bottom: 0 auto;
-}
-
-div {
-    margin: 30px auto;
+    padding: 8px 0px 8px 20px;
+    display: block;
     text-align: center;
-}
-
-.header h2 {
-    border-bottom: 2px solid rgb(95, 190, 221);
 }
 
 html {
@@ -128,12 +123,46 @@ html {
 button{
     background-color: white;
     padding: 8px;
-    color: black;
-    text-align: center;
+    color: #000000;
     text-shadow: none;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+
 }
 
 .indexbody {
  padding: 15px;
  margin: 0 auto;
+}
+
+img {
+    text-align: center;
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.header h2 {
+    display: block;
+    border-bottom: 2px solid rgb(95, 190, 221);
+    padding: 6px;
+    margin: 0 0 6px 8px;
+    width: 300px;
+}
+
+.recipe h2{
+    display: block;
+    border-bottom: 2px solid rgb(95, 190, 221);
+    width: 300px;
+
+}
+
+.header p{
+    text-align: left;
+    width: 960px;
+    height: auto;
+    padding-left: 12px;
+    
 }
